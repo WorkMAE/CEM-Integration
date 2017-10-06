@@ -1,4 +1,8 @@
 
+.form-control {
+ background-color: darkgray;
+ color: darkred;
+}
 .main-Title {
     color: Black;
     font-size: 36px;
