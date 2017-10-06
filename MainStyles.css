@@ -47,7 +47,7 @@
 }
 .checkbox.checkbox-inline {
   margin-top: 0;
-}*/
+}
     /*Checkbox styling*/
     
 /*.checkbox input[type="checkbox"]:checked + label::after, .checkbox input[type="radio"]:checked + label::after {
@@ -123,6 +123,6 @@
 .checkbox input[type="radio"]:disabled + label::before {
   background-color: #eeeeee;
   cursor: not-allowed;
-}
+}*/
 
 
