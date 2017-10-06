@@ -1,7 +1,7 @@
 
 .form-control {
  background-color: #49484D;
- color: #E12523;
+ color: white;
 }
 .main-Title {
     color: #49484D;
@@ -37,7 +37,7 @@
 
 select {
  background-color: #49484D;
-    color: #E12523;
+    color: white;
 }
 .hrRed {
     border-width: 10px;
