@@ -1,14 +1,14 @@
 
 .form-control {
- background-color: black;
+ background-color: #49484D;
  color: #E12523;
 }
 .main-Title {
-    color: Black;
+    color: #49484D;
     font-size: 36px;
 }
 .Secondary-title{
-    color:Red; 
+    color:#E12523; 
     font-size: 26px;
 }
 .subtitle {
@@ -28,7 +28,7 @@
 }
 
     input {
-        background-color: black !important;
+        background-color: #49484D !important;
         color: #E12523 !important;
     }
 .formly-field-inlineCheckboxes {
