@@ -32,8 +32,8 @@
 }
 
 select {
- background-color: whitesmoke;
-    color: black;
+ background-color: darkgray;
+    color: darkred;
 }
 .hrRed {
     border-width: 10px;
