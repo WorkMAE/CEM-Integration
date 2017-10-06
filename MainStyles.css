@@ -1,7 +1,7 @@
 
 .form-control {
- background-color: darkgray;
- color: darkred;
+ background-color: black;
+ color: #E12523;
 }
 .main-Title {
     color: Black;
@@ -29,15 +29,15 @@
 
     input {
         background-color: black !important;
-        color: darkred !important;
+        color: #E12523 !important;
     }
 .formly-field-inlineCheckboxes {
     padding-left: 20px !important;
 }
 
 select {
- background-color: darkgray;
-    color: darkred;
+ background-color: black;
+    color: #E12523;
 }
 .hrRed {
     border-width: 10px;
