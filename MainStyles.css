@@ -24,8 +24,8 @@
 }
 
     input {
-        background-color: whitesmoke !important;
-        color: black !important;
+        background-color: black !important;
+        color: darkred !important;
     }
 .formly-field-inlineCheckboxes {
     padding-left: 20px !important;
