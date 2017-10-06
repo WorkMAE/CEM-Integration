@@ -23,7 +23,7 @@
         padding-left: 150px;
         padding-right: 50px;
     }
-    .ui-grid, .ui-grid-viewport {
+    .ui-grid-viewport {
     height: auto !important;
 }
 
