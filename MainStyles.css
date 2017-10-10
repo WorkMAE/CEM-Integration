@@ -55,7 +55,7 @@ select {
 .checkbox.checkbox-inline {
   margin-top: 0;
 }
-.assignBackup {
+select[multiple], select[size] {
  height: 200px;
 }
     /*Checkbox styling*/
