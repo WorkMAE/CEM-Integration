@@ -55,6 +55,9 @@ select {
 .checkbox.checkbox-inline {
   margin-top: 0;
 }
+.assignBackup {
+ height: 200px;
+}
     /*Checkbox styling*/
     
 /*.checkbox input[type="checkbox"]:checked + label::after, .checkbox input[type="radio"]:checked + label::after {
