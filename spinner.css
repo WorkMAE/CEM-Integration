@@ -36,9 +36,7 @@ p {
 
 #content {
     margin: 0 auto;
-    padding-bottom: 50px;
-    width: 80%;
-    max-width: 978px;
+
 }
 #loader-wrapper {
     position: fixed;
