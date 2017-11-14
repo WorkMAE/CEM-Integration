@@ -98,6 +98,14 @@ select[multiple], select[size] {
   opacity: 0;
   top: -10px;
 }
+
+@media print {
+    body,html, #printView {
+        margin: 0; padding: 0;
+        display: block;
+        width:100%;
+    }
+}
     /*Checkbox styling*/
     
 /*.checkbox input[type="checkbox"]:checked + label::after, .checkbox input[type="radio"]:checked + label::after {
