@@ -111,6 +111,9 @@ select[multiple], select[size] {
         page-break-after: avoid;         
         page-break-before: avoid;
     }
+    #printView {
+        position:absolute;
+    }
 }
     /*Checkbox styling*/
     
