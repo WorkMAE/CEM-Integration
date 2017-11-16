@@ -115,6 +115,18 @@ select[multiple], select[size] {
         position:absolute;
     }
 }
+
+#siteIcon, .ms-breadcrumb-box, #DeltaPlaceHolderSearchArea, #sideNavBox {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+#contentBox {
+    margin-left: 2%;
+}
+
+
     /*Checkbox styling*/
     
 /*.checkbox input[type="checkbox"]:checked + label::after, .checkbox input[type="radio"]:checked + label::after {
