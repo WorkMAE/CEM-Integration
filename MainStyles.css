@@ -133,15 +133,11 @@ select[multiple], select[size] {
 .checkbox-inline input[type="checkbox"]:checked + label::after, .checkbox-inline input[type="radio"]:checked + label::after {
     font-family: "FontAwesome";
     content: "\f00c";
-    border: 2px solid black;
     background-color: #E12523;
     opacity: 0.85;
     width: 17px;
     height: 17px;
     color: white;
-}
-.checkbox-inline input[type="checkbox"]:checked + label::after, .checkbox-primary input[type="radio"]:checked + label::after {
-    color: white
 }
 
 .checkbox-inline label::before {
@@ -172,11 +168,7 @@ select[multiple], select[size] {
   font-size: 11px;
   color: #555555;
 }
-.checkbox-inline input[type="checkbox"],
-.checkbox-inline input[type="radio"] {
-  opacity: 0;
-  z-index: 1;
-}
+
 .checkbox-inline input[type="checkbox"]:focus + label::before,
 .checkbox-inline input[type="radio"]:focus + label::before {
   outline: thin dotted;
