@@ -129,7 +129,6 @@ select[multiple], select[size] {
 .radio input[type=radio], .radio-inline input[type=radio] {
     border-radius: 50px;
 }
-    /*Checkbox styling*/
     
 .checkbox-inline input[type="checkbox"]:checked + label::after, .checkbox-inline input[type="radio"]:checked + label::after {
     font-family: "FontAwesome";
