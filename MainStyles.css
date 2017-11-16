@@ -126,7 +126,9 @@ select[multiple], select[size] {
     margin-left: 2%;
 }
 
-
+.radio input[type=radio], .radio-inline input[type=radio] {
+    border-radius: 50px;
+}
     /*Checkbox styling*/
     
 /*.checkbox input[type="checkbox"]:checked + label::after, .checkbox input[type="radio"]:checked + label::after {
