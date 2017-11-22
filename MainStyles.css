@@ -53,7 +53,7 @@ select {
   border-radius: 50%;
 }
 .checkbox.checkbox-inline {
-  margin-top: 0;
+  margin-top: 5px;
 }
 select[multiple], select[size] {
  height: 200px;
