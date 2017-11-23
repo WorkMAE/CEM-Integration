@@ -137,6 +137,7 @@ select[multiple], select[size] {
     font-family: "FontAwesome";
     content: "\f00c";
     background-color: #E12523;
+    border-color: #49484D;
     opacity: 0.85;
     width: 17px;
     height: 17px;
@@ -150,12 +151,12 @@ select[multiple], select[size] {
   width: 17px;
   height: 17px;
   left: 0;
-  border: 2px solid #49484D;
+  border: 2px solid #cccccc;
   border-radius: 3px;
   background-color: #fff;
-  -webkit-transition: border 2s ease-in-out, color 2s ease-in-out;
-  -o-transition: border 2s ease-in-out, color 2s ease-in-out;
-  transition: border 2s ease-in-out, color 2s ease-in-out;
+  -webkit-transition: border 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
+  -o-transition: border 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
+  transition: border 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
 }
 .checkbox-inline label::after {
   display: inline-block;
@@ -168,8 +169,7 @@ select[multiple], select[size] {
   padding-top: 1px;
   font-size: 11px;
   color: #555555;
-  -webkit-transform: scale(0,0); -ms-transform: scale(0); -o-transform: scale(0,0); transform: scale(0); -webkit-transition: -webkit-transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33); -moz-transition: -moz-transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33); -o-transition: -o-transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33); transition:  transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33);
-}
+  }
 
 .checkbox-inline input[type="checkbox"]:focus + label::before,
 .checkbox-inline input[type="radio"]:focus + label::before {
