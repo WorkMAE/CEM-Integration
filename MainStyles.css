@@ -166,7 +166,7 @@ select[multiple], select[size] {
   width: 17px;
   height: 17px;
   left: 0;
-  top: 0;
+  top: 1px;
   padding-left: 3px;
   padding-top: 1px;
   font-size: 11px;
