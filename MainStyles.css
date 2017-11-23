@@ -136,12 +136,14 @@ select[multiple], select[size] {
 .checkbox-inline input[type="checkbox"]:checked + label::after, .checkbox-inline input[type="radio"]:checked + label::after {
     font-family: "FontAwesome";
     content: "\f00c";
-    background-color: #E12523;
-    border-color: #49484D;
     opacity: 0.85;
     width: 17px;
     height: 17px;
     color: white;
+}
+.checkbox-inline input[type="checkbox"]:checked + label::before {
+    background-color: #E12523;
+    border-color: #49484D;
 }
 
 .checkbox-inline label::before {
@@ -154,9 +156,9 @@ select[multiple], select[size] {
   border: 2px solid #cccccc;
   border-radius: 3px;
   background-color: #fff;
-  -webkit-transition: border 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
-  -o-transition: border 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
-  transition: border 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
+  -webkit-transition: border 1.15s ease-in-out, color 1.15s ease-in-out, background-color 1.15s ease-in-out;
+  -o-transition: border 1.15s ease-in-out, color 1.15s ease-in-out, background-color 1.15s ease-in-out;
+  transition: border 1.15s ease-in-out, color 1.15s ease-in-out, background-color 1.15s ease-in-out;
 }
 .checkbox-inline label::after {
   display: inline-block;
