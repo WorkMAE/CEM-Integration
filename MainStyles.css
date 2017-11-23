@@ -153,7 +153,7 @@ select[multiple], select[size] {
   width: 17px;
   height: 17px;
   left: 0;
-  border: 2px solid #cccccc;
+  border: 2px solid #E15253;
   border-radius: 3px;
   background-color: #fff;
   -webkit-transition: border 1.15s ease-in-out, color 1.15s ease-in-out, background-color 1.15s ease-in-out;
@@ -202,7 +202,7 @@ select[multiple], select[size] {
 }
 
 .radio label::before {
- border: 2px solid #cccccc;
+ border: 2px solid #E12523;
  -webkit-trasnsition: border 2s ease-in-out;
  -o-transition: border 2s ease-in-out;
  transition: border 2s ease-in-out;
