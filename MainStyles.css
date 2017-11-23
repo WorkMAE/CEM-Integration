@@ -147,7 +147,6 @@ select[multiple], select[size] {
   width: 17px;
   height: 17px;
   left: 0;
-  margin-left: -20px;
   border: 2px solid #49484D;
   border-radius: 3px;
   background-color: #fff;
@@ -162,7 +161,6 @@ select[multiple], select[size] {
   height: 17px;
   left: 0;
   top: 0;
-  margin-left: -20px;
   padding-left: 3px;
   padding-top: 1px;
   font-size: 11px;
