@@ -220,3 +220,10 @@ select[multiple], select[size] {
  transition:  transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33);
  
 }
+
+#s4-workspace {
+	position: relative;
+}
+#s4-bodyContainer {
+	position: absolute;
+}
