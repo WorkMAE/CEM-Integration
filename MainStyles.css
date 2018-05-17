@@ -136,7 +136,7 @@ select[multiple], select[size] {
 .checkbox-inline input[type="checkbox"]:checked + label::after{
     font-family: "Font Awesome 5 Free";
     content: "\f00c";
-    font-weight: 900
+    font-weight: 900!important;
     opacity: 0.85;
     width: 17px;
     height: 17px;
