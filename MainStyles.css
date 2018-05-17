@@ -133,6 +133,7 @@ select[multiple], select[size] {
 .radio input[type=radio]:checked+label::before, .checkbox-inline input[type=radio]:checked+label::before  {
  border-color: black;
 }
+
 .checkbox-inline input[type="checkbox"]:checked + label::after{
     font-family: "Font Awesome 5 Free";
     content: "\f00c";
@@ -204,9 +205,11 @@ select[multiple], select[size] {
  -webkit-trasnsition: border 2s ease-in-out;
  -o-transition: border 2s ease-in-out;
  transition: border 2s ease-in-out;
+ border-radius: 50px!important;
 }
 
 .radio label::after, .checkbox-inline input[type=radio] label::after {
+ border-radius: 50px!important;
  background-color:#E12523;
  -webkit-transform: scale(0,0);
  -ms-transform: scale(0);
