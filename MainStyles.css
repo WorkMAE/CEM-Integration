@@ -127,7 +127,7 @@ select[multiple], select[size] {
 }
 
 .radio input[type=radio], .radio-inline input[type=radio], .checkbox-inline input[type=radio] {
-    border-radius: 50px;
+    border-radius: 50px!important;
 }
  
 .radio input[type=radio]:checked+label::before, .checkbox-inline input[type=radio]:checked+label::before  {
