@@ -133,7 +133,7 @@ select[multiple], select[size] {
 .radio input[type=radio]:checked+label::before {
  border-color: black;
 }
-.checkbox-inline input[type="checkbox"]:checked + label::after, .checkbox-inline input[type="radio"]:checked + label::after {
+.checkbox-inline input[type="checkbox"]:checked + label::after{
     font-family: "FontAwesome";
     content: "\f00c";
     opacity: 0.85;
@@ -173,15 +173,13 @@ select[multiple], select[size] {
   color: #555555;
   }
 
-.checkbox-inline input[type="checkbox"]:focus + label::before,
-.checkbox-inline input[type="radio"]:focus + label::before {
+.checkbox-inline input[type="checkbox"]:focus + label::before {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-.checkbox-inline input[type="checkbox"]:indeterminate + label::after,
-.checkbox-inline input[type="radio"]:indeterminate + label::after {
+.checkbox-inline input[type="checkbox"]:indeterminate + label::after {
   display: block;
   content: "";
   width: 10px;
@@ -191,12 +189,10 @@ select[multiple], select[size] {
   margin-left: -16.5px;
   margin-top: 7px;
 }
-.checkbox-inline input[type="checkbox"]:disabled + label,
-.checkbox-inline input[type="radio"]:disabled + label {
+.checkbox-inline input[type="checkbox"]:disabled + label {
   opacity: 0.65;
 }
-.checkbox-inline input[type="checkbox"]:disabled + label::before,
-.checkbox-inline input[type="radio"]:disabled + label::before {
+.checkbox-inline input[type="checkbox"]:disabled + label::before{
   background-color: #eeeeee;
   cursor: not-allowed;
 }
