@@ -126,11 +126,11 @@ select[multiple], select[size] {
     margin-left: 2%;
 }
 
-.radio input[type=radio], .radio-inline input[type=radio] {
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox-inline input[type=radio] {
     border-radius: 50px;
 }
  
-.radio input[type=radio]:checked+label::before {
+.radio input[type=radio]:checked+label::before, .checkbox-inline input[type=radio]:checked+label::before  {
  border-color: black;
 }
 .checkbox-inline input[type="checkbox"]:checked + label::after{
@@ -160,6 +160,7 @@ select[multiple], select[size] {
   -o-transition: border 1.15s ease-in-out, color 1.15s ease-in-out, background-color 1.15s ease-in-out;
   transition: border 1.15s ease-in-out, color 1.15s ease-in-out, background-color 1.15s ease-in-out;
 }
+
 .checkbox-inline label::after {
   display: inline-block;
   position: absolute;
@@ -197,14 +198,14 @@ select[multiple], select[size] {
   cursor: not-allowed;
 }
 
-.radio label::before {
+.radio label::before, .checkbox-inline input[type=radio] label::before {
  border: 2px solid #E12523;
  -webkit-trasnsition: border 2s ease-in-out;
  -o-transition: border 2s ease-in-out;
  transition: border 2s ease-in-out;
 }
 
-.radio label::after {
+.radio label::after, .checkbox-inline input[type=radio] label::after {
  background-color:#E12523;
  -webkit-transform: scale(0,0);
  -ms-transform: scale(0);
@@ -214,7 +215,6 @@ select[multiple], select[size] {
  -moz-transition: -moz-transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33);
  -o-transition: -o-transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33);
  transition:  transform 0.75s cubic-bezier(0.8,-0.33,0.2,1.33);
- 
 }
 
 #s4-workspace {
