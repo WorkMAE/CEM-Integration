@@ -5,11 +5,11 @@
 }
 
 .viewLabel {
-  font-weight: bold;
+  font-weight: bold!important;
 }
 
 .viewAnswer: {
-  color: red;	
+  color: red!important;	
 }
 .main-Title {
     color: #49484D;
