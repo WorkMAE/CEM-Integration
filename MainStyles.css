@@ -8,6 +8,9 @@
   font-weight: bold!important;
 }
 
+.viewSep {
+   margin-left: 5px;
+}
 .viewAnswer: {
   color: red!important;	
 }
