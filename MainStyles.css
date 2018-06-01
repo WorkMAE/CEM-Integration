@@ -3,6 +3,14 @@
  background-color: #49484D;
  color: white;
 }
+
+.viewLabel {
+  font-weight: bold;
+}
+
+.viewAnswer: {
+  color: red;	
+}
 .main-Title {
     color: #49484D;
     font-size: 36px;
