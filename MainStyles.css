@@ -39,16 +39,18 @@
 }
 
     input {
-        background-color: #49484D !important;
-        color: white !important;
+        background-color: #c9c9c9 !important;
+        color: black !important;
+	border: 1px solid #999;
     }
 .formly-field-inlineCheckboxes {
     padding-left: 20px !important;
 }
 
 select {
- background-color: #49484D;
-    color: white;
+    background-color: #C9C9C9;
+    color: black;
+    border: 1px solid #999;
 }
 .hrRed {
     border-width: 10px;
@@ -464,4 +466,46 @@ select[multiple], select[size] {
 }
 .nya-bs-select.on-modal.open > .btn {
   z-index: 1041;
+}
+
+
+/* added by CPAPA */
+
+/*@media all and (min-width:768px)*/
+.navbar-right {
+    float: right !important;
+    margin-right: 10px;
+}
+
+.ms-rtestate-field p, p.ms-rteElement-P {
+    margin: 10px 0px 10px 0px;
+    line-height: 1;
+}
+
+.panel-primary > .panel-heading {
+    color: white;
+    background-color: #666;
+    border-color: #666;
+}
+
+.panel-primary {
+    border-color: #666;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #666;
+    border-color: #444;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #444;
+    border-color: #444;
+}
+
+.focus.btn-default, .btn-default:focus {
+    color: #333;
+    background-color: #666;
+    border-color: #444;
 }
