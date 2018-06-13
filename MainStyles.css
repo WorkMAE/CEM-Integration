@@ -1,6 +1,6 @@
 
 .form-control {
- background-color: #c9c9c9;
+ background-color: #cee1ec;
  color: black;
 }
 
@@ -39,7 +39,7 @@
 }
 
     input {
-        background-color: #c9c9c9 !important;
+        background-color: #cee1ec !important;
         color: black !important;
 	border: 1px solid #999;
     }
@@ -568,4 +568,8 @@ select[multiple], select[size] {
     border-color: #e7e7e7;
     margin-left: -15px !important;
     margin-right: -15px !important;
+}
+
+.fa-2x {
+    font-size: 1.6em !important;
 }
