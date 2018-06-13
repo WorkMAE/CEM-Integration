@@ -1,7 +1,7 @@
 
 .form-control {
- background-color: #49484D;
- color: white;
+ background-color: #c9c9c9;
+ color: black;
 }
 
 .viewLabel {
@@ -468,6 +468,21 @@ select[multiple], select[size] {
   z-index: 1041;
 }
 
+.ms-webpart-chrome-title {
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 2px;
+    height: 0px;
+    visibility: hidden;
+}
+
+#s4-titlerow {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 19px;
+    padding-bottom: 8px;
+    height: 0px;
+}
 
 /* added by CPAPA */
 
