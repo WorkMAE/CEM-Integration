@@ -566,6 +566,6 @@ select[multiple], select[size] {
 .navbar-default {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
 }
