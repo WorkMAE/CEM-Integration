@@ -562,7 +562,3 @@ select[multiple], select[size] {
     background-color: #DDF;
     color: #000;
 }
-.row {
-    margin-right: 0px !important;
-    margin-left: -8px !important;
-}
