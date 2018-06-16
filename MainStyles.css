@@ -224,6 +224,9 @@ select[multiple], select[size] {
 .radio label::after, .checkbox-inline input[type=radio] label::after {
  border-radius: 50px!important;
  background-color:#E12523;
+ width: 13px;
+ height:13px;
+ top: 2px;
  -webkit-transform: scale(0,0);
  -ms-transform: scale(0);
  -o-transform: scale(0,0);
