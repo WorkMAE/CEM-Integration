@@ -37,7 +37,9 @@
     .ui-grid-viewport {
     height: auto !important;
 }
-
+#hidZon{
+   display:unset !important;
+}
     input {
         background-color: #cee1ec !important;
         color: black !important;
